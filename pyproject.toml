@@ -20,7 +20,7 @@ sentry-sdk = { version = "^2.19", extras = ["django"] }
 opentelemetry-api = "^1.29"
 opentelemetry-sdk = "^1.29"
 opentelemetry-instrumentation-django = "^0.50b0"
-drf-spectacular = "^0.28"
+drf-spectacular = ">=0.28,<0.30"
 uvicorn = { version = "^0.34", extras = ["standard"] }
 pandas = "^3.0.3"
 pdfplumber = "^0.11.10"
