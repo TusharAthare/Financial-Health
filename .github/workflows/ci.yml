@@ -12,35 +12,10 @@ permissions:
 jobs:
   backend-tests:
     runs-on: ubuntu-latest
-    services:
-      postgres:
-        image: postgres:16
-        env:
-          POSTGRES_USER: postgres
-          POSTGRES_PASSWORD: postgres
-          POSTGRES_DB: financial_health_test
-        ports:
-          - 5432:5432
-        options: >-
-          --health-cmd pg_isready
-          --health-interval 10s
-          --health-timeout 5s
-          --health-retries 5
-      redis:
-        image: redis:7
-        ports:
-          - 6379:6379
-
     env:
       ENVIRONMENT: TESTING
       SECRET_KEY: ci-test-secret-key
       DEBUG: "False"
-      DB_NAME: financial_health_test
-      DB_USER: postgres
-      DB_PASSWORD: postgres
-      DB_HOST: localhost
-      DB_PORT: "5432"
-      REDIS_URL: redis://localhost:6379/0
       GEMINI_ENABLED: "False"
 
     steps:
