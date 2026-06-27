@@ -267,7 +267,7 @@ export function TransactionsPage() {
       to: toFilter || undefined,
       direction:
         directionFilter === "credit" || directionFilter === "debit"
-          ? directionFilter
+          ? (directionFilter as "credit" | "debit")
           : undefined,
       search: searchFilter || undefined,
       uncategorized: uncategorizedFilter || undefined,
