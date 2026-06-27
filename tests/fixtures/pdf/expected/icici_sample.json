@@ -1,0 +1,26 @@
+[
+  {
+    "transaction_date": "2025-06-01",
+    "amount": "-892.50",
+    "raw_description": "UPI-ZEPTO GROCERY",
+    "balance": "102008.50"
+  },
+  {
+    "transaction_date": "2025-06-07",
+    "amount": "-5000.00",
+    "raw_description": "ATM WITHDRAWAL SBI MUMBAI",
+    "balance": "97008.50"
+  },
+  {
+    "transaction_date": "2025-06-15",
+    "amount": "-18500.00",
+    "raw_description": "EMI-HOME LOAN HDFC",
+    "balance": "78508.50"
+  },
+  {
+    "transaction_date": "2025-06-25",
+    "amount": "125.00",
+    "raw_description": "INTEREST CREDIT",
+    "balance": "78633.50"
+  }
+]

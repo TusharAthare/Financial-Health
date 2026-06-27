@@ -1,0 +1,26 @@
+[
+  {
+    "transaction_date": "2025-06-01",
+    "amount": "-450.00",
+    "raw_description": "UPI-SWIGGY BANGALORE",
+    "balance": "48550.00"
+  },
+  {
+    "transaction_date": "2025-06-02",
+    "amount": "75000.00",
+    "raw_description": "SALARY CREDIT ACME CORP",
+    "balance": "123550.00"
+  },
+  {
+    "transaction_date": "2025-06-03",
+    "amount": "-15000.00",
+    "raw_description": "NEFT-RENT PAYMENT",
+    "balance": "108550.00"
+  },
+  {
+    "transaction_date": "2025-06-05",
+    "amount": "-649.00",
+    "raw_description": "UPI-NETFLIX SUBSCRIPTION",
+    "balance": "107901.00"
+  }
+]
